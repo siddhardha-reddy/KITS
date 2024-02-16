@@ -1,0 +1,73 @@
+body
+{
+    overflow-x: hidden;
+}
+.container-fluid{
+    background-color:red;
+    border-radius: 12px;
+}
+#follow-us{
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+}
+#follow-items{
+    padding-left: 5px;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 3px;
+
+}
+#follow-items:hover{
+    padding-left: 5px;
+    color:red;
+    background-color: white; 
+    font-size: 25px; 
+    border-radius: 12px;  
+    align-items: center;
+}
+/* #contact{
+    background: url("https://img.freepik.com/free-photo/happy-young-beautiful-woman-casual-clothes-with-headphones-microphone-sitting-table-with-laptop-having-video-call-white-background-working-office_141793-127921.jpg?w=740&t=st=1708006324~exp=1708006924~hmac=d8603b153bda73400015e83fa8aa32e3719330a75d5448741a3ef483dfa7dad0");
+    width:100vw;
+    height:auto;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+.Departments{
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+}   
+.bgimg{
+    background-image: url('https://kitsguntur.ac.in/site/imagesnew/slider/home4/slide1.jpg');
+    width:100vw;
+    height:70vh;
+    background-position: center;
+    
+}
+.heading{
+    color:black;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 5;
+    background-color: aliceblue;
+    padding-left: 40px;
+}
+#navlink{
+    color: white;
+    
+}
+#navlink:hover{
+    color: red;
+    background-color: white;
+    border-radius: 12px;
+}
+.card{
+ margin-top: 5px;
+}
